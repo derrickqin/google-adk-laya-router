@@ -1,0 +1,108 @@
+{
+  "router": "laya @ Cloud Run",
+  "tiers": 3,
+  "results": [
+    {
+      "question": "What time does \"How to Succeed in a Hackathon\" start?",
+      "label": "lookup",
+      "confidence": 0.5056,
+      "router_secs": 2.0197370970000037,
+      "attempts": [
+        {
+          "tier": "lite",
+          "usage": {
+            "prompt": 29400,
+            "cached": 29168,
+            "output": 76,
+            "thinking": 0
+          },
+          "latency": 2.212229534000002,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1305224"
+            ],
+            "room": "",
+            "time": "11:40",
+            "answer": "The talk \"How to Succeed in a Hackathon\" starts at 11:40 on Level 5 in Flagstaff."
+          }
+        }
+      ],
+      "router": "laya",
+      "cost": 0.001193212375813,
+      "server_s": 4.958792975999998
+    },
+    {
+      "question": "I'm new to AI, any beginner talks worth seeing?",
+      "label": "filter",
+      "confidence": 0.4087,
+      "router_secs": 1.728702314000003,
+      "attempts": [
+        {
+          "tier": "flash",
+          "usage": {
+            "prompt": 29399,
+            "cached": 29168,
+            "output": 158,
+            "thinking": 1033
+          },
+          "latency": 10.366628265999992,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1302242",
+              "1290872",
+              "1305549",
+              "1313293"
+            ],
+            "room": "",
+            "time": "",
+            "answer": "There are several beginner-level AI talks: 'Wonderful world of Open Weights AI' (13:40), 'Cheap Local AI: Michelin star performance on a Maccas budget' (15:30), and two short sessions at 16:10: 'AI Governance: Who Signs Off on the Robot?' and 'Hello Computer, Introducing the next generation of Human Computer Interfaces.'"
+          }
+        }
+      ],
+      "router": "laya",
+      "cost": 0.006877232367106,
+      "server_s": 12.104543352000007
+    },
+    {
+      "question": "I'm here till 3pm. Build my day: one talk per slot, GCP first, then AI, and nothing on Android.",
+      "label": "plan",
+      "confidence": 0.7996,
+      "router_secs": 1.8384970999999979,
+      "attempts": [
+        {
+          "tier": "pro",
+          "usage": {
+            "prompt": 29415,
+            "cached": 29168,
+            "output": 133,
+            "thinking": 2143
+          },
+          "latency": 25.932472452,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1316550",
+              "1302092",
+              "1310720",
+              "1321310",
+              "1321201",
+              "1322021",
+              "1313889"
+            ],
+            "room": "",
+            "time": "",
+            "answer": "Here is your personalized schedule until 3:00 PM, prioritizing GCP and AI topics while entirely avoiding Android talks."
+          }
+        }
+      ],
+      "router": "laya",
+      "cost": 0.0336929164159,
+      "server_s": 27.778480556000005
+    }
+  ]
+}

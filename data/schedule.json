@@ -1,0 +1,1072 @@
+{
+  "sessions": [
+    {
+      "id": "f22350c0-bf87-4049-8cdb-25f2bd7f4026",
+      "title": "Registration (Level 5)",
+      "description": null,
+      "startsAt": "2026-10-03T08:30:00",
+      "endsAt": "2026-10-03T09:00:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "0ff6bbb3-cc01-44a1-9016-701f91a62674",
+      "title": "Welcome",
+      "description": null,
+      "startsAt": "2026-10-03T09:00:00",
+      "endsAt": "2026-10-03T09:15:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "1315118",
+      "title": "AndroidX Crypto is Dead, Long Live DataStore Encryption?",
+      "description": "For years, the Jetpack Security (Crypto) library was the go-to solution for storing sensitive data locally on Android. However, the library was deprecated in 2025 without any explanations. But now a year later, DataStore Tink was released that is supposedly a replacement for the deprecated library. But without understanding why the original Crypto library fell short, one might assume that this new library is the sliver bullet.\r\n\r\nThis session is aimed to demystify the inner workings of these encryption libraries, and you'll leave with a clear understanding of the security features of Android OS and the best practices you can use to build a secure modern Android application.",
+      "startsAt": "2026-10-03T09:20:00",
+      "endsAt": "2026-10-03T09:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "767c94dc-b41f-4e36-80df-b489a5adcb9f"
+      ],
+      "categoryItems": [
+        492867,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1316550",
+      "title": "MCP? I hardly know her!",
+      "description": "Model Context Protocol (MCP) is a crucial bridge connecting AI agents to diverse data sources and tools, but realising its full potential requires moving beyond simple client-server connections. This session explores the architecture of agent ecosystems, tracing the path of MCP use cases from local development environments to production-ready remote deployments.\r\n\r\nWe will examine the versatility of MCP implementation across the stack:\r\n\r\n• Let's start simple - How do you host a MCP client and server locally (Quick demo with Filesystem MCP)\r\n• External Service Integration - Moving beyond the local filesystem, we will demonstrate how to connect to off-the-shelf MCP remote clients, like Figma and Jira.\r\n• Custom MCP Development - We will explore building custom servers using FastMCP and MCP Toolbox\r\n• Production-Ready Patterns - We'll explore options on Agent Platform customised for MCP servers\r\n• Finally, a fun example to end everything - The MCP Sandwich 🥪 . What is it? Only one way to find out 😬 (Hint: ChromeDevTools MCP and WebMCP)\r\n\r\nAlong the way, we will also explore advanced workflows with ADK 2.0, which was released in May 2026. We will demonstrate how to make use of new concepts brought about by ADK 2.0—specifically Graphing Flows and Human-in-the-Loop (HITL)—to create more meaningful and controlled agent workflows.",
+      "startsAt": "2026-10-03T09:20:00",
+      "endsAt": "2026-10-03T09:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bf33144d-d1d6-467e-ae92-6e0912d5962d"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1307332",
+      "title": "A new class of user",
+      "description": "Whether you like it or not, AI agents are here and they are roaming the web working on behalf of real people. They read web content, search, navigate, and fill in forms; some are even empowered to use credit cards and buy things. As web developers, how do we respond to this? What does it mean to build for the web when the user may not be human?\r\n\r\nThis talk is intended to start the conversation around who we are serving as web developers.\r\nDo we need a new \"agent-first\" design paradigm or can we simply pretend nothing has changed? As our entire industry goes through a huge upheaval, what are the choices we can make that ensure the web continues to be for everyone as we expand the scope of \"everyone\"?",
+      "startsAt": "2026-10-03T09:20:00",
+      "endsAt": "2026-10-03T09:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3b179d77-02a0-4d36-8cf2-eb969d10f9a6"
+      ],
+      "categoryItems": [
+        492871,
+        492878,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1289144",
+      "title": "Streaming Under Fire",
+      "description": "What's it like to run a platform where something is always on fire? At Kick, live streams are someone's livelihood and live has no undo, no maintenance windows, no second takes, millions watching. At that scale the happy path is a lie; traffic spikes, dependencies fail, deploys go sideways, and someone out there is always trying to knock you over. This is a war-stories talk from the team keeping it online. You'll see how we decide what \"working\" actually means when you can't protect everything equally.",
+      "startsAt": "2026-10-03T10:00:00",
+      "endsAt": "2026-10-03T10:35:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "31b82bda-a955-4718-b49c-e4948640e9d1",
+        "72f9370c-e8ae-4146-955a-13580be61b01"
+      ],
+      "categoryItems": [
+        492870,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1302092",
+      "title": "Evaluating the AI-Assisted Developer Experience",
+      "description": "The rapid adoption of AI-assisted coding tools has fundamentally changed how developers approach complex engineering tasks. As the industry shifts toward agentic workflows, the visibility gap into how these tools impact overall developer productivity and code quality has widened. Engineering teams are now tasked with ensuring their developer experiences are reliable, accurate, and trustworthy, yet traditional testing methods often fall short in these indeterminate, AI-driven environments.\r\n\r\nThis talk explores a framework for implementing developer experience testing at scale. We will examine how to build automated evaluation platforms that function as continuous integration for AI systems. Instead of relying on anecdotal feedback, we will discuss how to define and measure success using metrics that go beyond simple functionality. \r\n\r\nBy the end of this session, attendees will walk away with two primary insights:\r\n\r\n- How to create practical, everyday measurements that clearly show if AI tools are helping developers succeed or creating new hurdles.\r\n- A straightforward strategy for monitoring AI performance over time, ensuring your tools remain helpful partners rather than sources of frustration.\r\n\r\nAttendees will leave with a clear plan to protect developer trust while embracing new ways of working, ensuring that the software they build remains high-quality and reliable, no matter how much automation is involved.\r\n",
+      "startsAt": "2026-10-03T10:00:00",
+      "endsAt": "2026-10-03T10:35:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a0591762-1129-4ea2-8c1e-32fc81a13413"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1321235",
+      "title": "Draw, Don't Recompose: Fixing frame rate-killers in Compose",
+      "description": "Have you ever struggled with animations triggering recompositions on every frame? Watched your recomposition counters skyrocket while frame rates drop? Want to learn how to fix this and have your animations running smoother than butter?\r\n\r\nCustom Canvas drawing in Compose is powerful, but achieving smooth performance requires understanding the three core phases: Composition, Layout, and Draw (which you normally don’t think about). Reading animated values during the wrong phase silently forces Compose to execute all three phases on every single frame, degrading performance. Every darn frame!\r\n\r\nThis talk walks through the techniques for getting that right, using a real animated mesh gradient effect with an infinite transition as the example.\r\n\r\nWe will explore its evolution, going from \"it functions\" to \"it's blazing fast with a screen full of them (and not recomposing or losing frames)\".\r\n\r\nIn this talk, we'll cover:\r\n- State management and design for performant Compose animations,\r\n- Animation techniques for buttery smooth animations, including state hoisting, deferred state reads, direct Canvas drawing (with a bit of shaders and brushes), and even using custom Modifier.Nodes,\r\n- Common pitfalls and performance quirks, and\r\n- Strategies for creating reusable visual effects across backgrounds, borders, and typography without duplicating code\r\n\r\nWhat you’ll learn is not specific to this animation type and can be applied anywhere in Compose rendering: whether you're animating custom content, diagnosing high-cost animations, or debugging performance issues.\r\n\r\nJoin me and learn how to showcase your statement piece animations in Compose (at 60fps)!",
+      "startsAt": "2026-10-03T10:00:00",
+      "endsAt": "2026-10-03T10:35:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d784c94f-4042-4365-b87f-3c93c3d10aef"
+      ],
+      "categoryItems": [
+        492867,
+        492878,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "0a902941-855f-471c-885e-4231178e541d",
+      "title": "Morning Tea",
+      "description": null,
+      "startsAt": "2026-10-03T10:35:00",
+      "endsAt": "2026-10-03T11:00:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "1321230",
+      "title": "Fast, Safe, and Dynamic: Streaming Generative UI on Android",
+      "description": "How do you let an LLM decide how data should be displayed without giving away control of your app’s visual integrity? The answer lies in schema-driven Generative UI. This session explores how Android engineers can build a component registry that allows an AI model to pick the optimal data visualization (e.g., swapping a dense table for a interactive chart or summary cards based on the context). Discover design system constraints, fallback rendering strategies, and how to safely bind dynamic JSON schemas to Compose primitives.",
+      "startsAt": "2026-10-03T11:00:00",
+      "endsAt": "2026-10-03T11:35:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "fcfb9145-5d11-494d-9ae8-de9e678432c8"
+      ],
+      "categoryItems": [
+        492867,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1310720",
+      "title": "From Prompt to Prop: Filmmaking with Gemini AI Workflow",
+      "description": "How can indie filmmakers and creative technologists leverage Google’s cutting-edge AI models without losing the human soul of storytelling?\r\n\r\nIn this session, the creator behind the independent short film The Last Tenant unpacks a practical, real-world workflow blending Google’s Gemini ecosystem (Gemini Nano Banana, Flash, Flow) with traditional cinema production.\r\n\r\nWe will explore:\r\n\r\nZero-Artifact Prop Generation: How we engineered character-consistent in-film artifacts (framed photos).\r\n\r\nPre-vis & Visual Scaffolding: Translating directorial intent, storyboards, lighting moods, and spatial setups into rapid visual prototypes.\r\n\r\nAI-Driven Campaign Strategy: Streamlining screening advertisements, Instagram engagement narratives, and press-kit generation.\r\n\r\nAttendees will walk away with a proven methodology on bridging developer AI tooling with tangible, high-touch creative arts.",
+      "startsAt": "2026-10-03T11:00:00",
+      "endsAt": "2026-10-03T11:35:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4a4960d5-7d5a-4460-bcd0-71c23c7537ff"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1315317",
+      "title": "How Does Firebase Know I Closed My Laptop?",
+      "description": "You close your laptop, and somehow the app knows you're gone. No warning, no goodbye message, no clean shutdown, just silence. This talk covers how Firebase Realtime Database actually detects that, using onDisconnect() and .info/connected to let the server notice you've left instead of waiting for you to say so.",
+      "startsAt": "2026-10-03T11:00:00",
+      "endsAt": "2026-10-03T11:35:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ab3b35e3-7a06-4edf-b2ed-045905b7b6cc"
+      ],
+      "categoryItems": [
+        492871,
+        492878,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1321310",
+      "title": "Token-Maxxing Is Not a Strategy: Getting More Value per Token on Google Cloud",
+      "description": "Per-token prices have fallen ~1000× in three years, yet surveys find 47–93% of enterprises over their AI budgets, and OpenAI's own report finds no meaningful link between token use and revenue per employee. Welcome to token-maxxing: confusing activity with impact.\r\n\r\nThe models got good, everyone started vibe coding, and AI was dropped into one step of the old process: more PRs, more bugs, burnt-out reviewers, and the biggest model on everything.\r\nThis talk suggests ways to fix the process first, then the tokens, measuring cost per successful task. Live on Google Cloud: prompt caching on Gemini, an ADK agent that routes each prompt to the right model, and the same routing for your coding agent such as Antigravity CLI.\r\nYou'll leave with changes you can make on Monday.",
+      "startsAt": "2026-10-03T11:40:00",
+      "endsAt": "2026-10-03T12:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "76280333-5be1-444a-a464-ec7e5a4d777b"
+      ],
+      "categoryItems": [
+        492869,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1291720",
+      "title": "BOM for Agentic Engineering",
+      "description": "Agentic engineering is here, but most teams adopt it piecemeal: a tool here, a prompt there, no shared picture. This talk presents a Bill of Materials for the agentic SDLC: the layers (agents, capabilities, standards, MCP integrations, knowledge), the cross-cutting concerns (governance, measurement), and how an input becomes a delivered outcome. We’ll walk a target architecture rebuilt around agentic capability, name the real gaps, and show what it takes to make the SDLC self-continuous rather than just AI-assisted.",
+      "startsAt": "2026-10-03T11:40:00",
+      "endsAt": "2026-10-03T12:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "60d8662a-9d16-4150-9e15-d9b403b794f7"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1305224",
+      "title": "How to Succeed in a Hackathon",
+      "description": "Winning a hackathon is never about writing the most code the fastest: it's about the decisions that shape a project from idea to submission. Drawing on a track record of winning, judging, and organizing hackathons, this session breaks down the often-overlooked fundamentals that separate winning projects from the rest: choosing a strong idea, naming it well, writing clean code, building something that's functional, and presenting it clearly through both the writeup and the final pitch. Attendees will leave with a practical framework they can apply at their very next hackathon.",
+      "startsAt": "2026-10-03T11:40:00",
+      "endsAt": "2026-10-03T12:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "87c37f50-2beb-4629-9e5d-d58a77be8735"
+      ],
+      "categoryItems": [
+        492873,
+        492877,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1313281",
+      "title": "Analyze This: Guardrails for Humans and Agents with Lint",
+      "description": "There's never been a better time to build checks for your code in order to catch bugs and enforce team conventions. This is because today's human reviewers can struggle with the sheer volume of code. And because authoring a lint rule is a task where language models can assist us greatly.\r\n\r\nIn this talk, we'll cover the need for consistency in software systems and the basics of lint, Google's static analysis tool. We'll show you the important concepts like UAST and scopes so you understand what's been written. Finally, we'll explain how to test and debug lint rules so you're not stuck when something goes wrong.\r\n \r\nStart building lint rules - your non-deterministic teammates (of both kinds) will thank you for it!",
+      "startsAt": "2026-10-03T12:20:00",
+      "endsAt": "2026-10-03T12:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "6ec92a58-821b-449c-a579-8d63c9951e76"
+      ],
+      "categoryItems": [
+        492867,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1321201",
+      "title": "Structure Over Prompts: Building an SRE Agent on Gemini Enterprise Agent Platform",
+      "description": "We built an automated SRE agent using the Agent Development Kit (ADK) and Gemini Enterprise Agent Platform to investigate end-to-end test failures. The agent's mission: collect and parse logs, analyse source code diffs, locate the root cause, and categorise the failure as a legitimate bug, a PR regression or a flake.\r\n\r\nOur first iteration produced answers but suffered from typical agentic fragility: edge cases  unbounded execution loops even despite token guards, non-deterministic routing paths through identical errors, and overconfident hallucinations such as claiming an \"infrastructure failure\" based on a single line of a log file.\r\n\r\nThe fix wasn't a better prompt - it was treating the agent as a software program rather than a series of LLM calls. Instead of dumping files, logs, and prompts into an LLM and hoping for the best, we encoded the investigation process into the agent's structure: explicit states, typed transitions, and guardrails defined in ADK. This is what brought determinism into a highly indeterministic system, while reducing the prompts volume.\r\n\r\nThe talk also covers context engineering under time and platform constraints: no persistent volumes or local git clones, so all source code access runs through GitHub APIs. But PR diffs and fetched files can be large, naively adding them to the context will lead to token waste and dilute the attention mechanism, causing the LLM's output quality to degrade.\r\n\r\nWe will walk through the production graph topology, the custom tool boundaries, and the inline verifier that forces the agent to be uncertain and honest rather than confident and wrong.",
+      "startsAt": "2026-10-03T12:20:00",
+      "endsAt": "2026-10-03T12:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "14188cc6-c6cb-459e-9e06-e16c36759669"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1320348",
+      "title": "The ins and outs of Contracting",
+      "description": "What happens when you get a contract role? \r\nHow do you get paid?\r\nShould I set up my own company?\r\n\r\nAll these questions answered!",
+      "startsAt": "2026-10-03T12:20:00",
+      "endsAt": "2026-10-03T12:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d5bdd3f7-7eed-4308-8171-aa43e4483cbd"
+      ],
+      "categoryItems": [
+        492873,
+        492879,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1bfcb843-c2c1-417b-83b3-278c02805fdc",
+      "title": "Lunch",
+      "description": null,
+      "startsAt": "2026-10-03T12:55:00",
+      "endsAt": "2026-10-03T13:40:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "1322021",
+      "title": "Work Smarter, Not Harder: GCP Secrets Hiding in Plain Sight Secrets",
+      "description": "Building on Google Cloud is straightforward; mastering it requires knowing where the platform’s native capabilities can replace custom engineering effort. This talk uncovers overlooked features, tools, and design patterns that dramatically simplify day-to-day engineering.\r\n\r\nWe will bypass basic 101 tutorials and dive straight into actionable, real-world patterns across networking, security, storage, and developer tooling.",
+      "startsAt": "2026-10-03T13:40:00",
+      "endsAt": "2026-10-03T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "aa2e0f74-5b1b-4f06-acb7-f84f6545b24c"
+      ],
+      "categoryItems": [
+        492869,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1302242",
+      "title": "Wonderful world of Open Weights AI",
+      "description": "In April 2026, a 27-billion-parameter open-weight model (Qwen3.6-27B) posted 77% on SWE-bench Verified; the benchmark GPT-5 launched at 75% on eight months earlier. By August, its successor, Qwen3.8-27B, was scoring 61.7% on the harder SWE-bench Pro, ahead of Claude Opus 4.6, the frontier model of the start of the year. All of that runs, quantised, on a single consumer GPU.\r\n\r\nOpen weights isn't about laptops. It's about freedom of deployment: the same weights run on your MacBook, on your own servers, across a dozen competing inference providers, or in whichever country your data is required to stay. Your model can't be deprecated, repriced, or geo-restricted out from under you.\r\n\r\nThis is the fully updated grand tour of that freedom: the current royalty of the open-weight class (Gemma 4, Qwen3.8, DeepSeek V4.1, Kimi K3, GLM-5.3), why SWE-bench Pro and Terminal-Bench replaced the leaderboard you used to read, and how the mixture-of-experts trick makes some of these models fast enough for real agentic loops.\r\n\r\nThen I'll prove it isn't hype: a live agent running fully offline on the laptop in front of you, plus fresh production results. Open-weight models benchmarked against frontier APIs on low-resource-language summarisation for a bilingual news platform, and an agentic video-generation pipeline built on a open weights MoE flash model.",
+      "startsAt": "2026-10-03T13:40:00",
+      "endsAt": "2026-10-03T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4c65dbfb-df7d-40c0-bf28-ca58cc68442d"
+      ],
+      "categoryItems": [
+        492875,
+        492877,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1301192",
+      "title": "The Graduate Tech Playbook: From Classroom to Career",
+      "description": "A technology degree is only the beginning of a career in tech. The transition from university to industry can feel overwhelming — knowing what skills to build, what projects matter, how to gain experience, and how to stand out in a competitive job market.\r\n\r\nIn this session, I share my journey from a university student to a technology professional and the practical strategies that helped me bridge the gap between classroom learning and industry expectations.\r\n\r\nWe’ll explore how to build technical skills through meaningful projects, leverage communities and networking opportunities, create a professional presence, prepare for the job search, and continuously grow beyond graduation.\r\n\r\nWhether you're a student, recent graduate, or someone looking to enter tech, this session provides a practical playbook for building confidence, creating opportunities, and starting your technology career.",
+      "startsAt": "2026-10-03T13:40:00",
+      "endsAt": "2026-10-03T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "23f66861-6309-4023-9dc5-fb59bb50d284"
+      ],
+      "categoryItems": [
+        492873,
+        492877,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1295754",
+      "title": "Grow Leaders, Grow Teams: From Individual Contributor to Leader of Leaders",
+      "description": "Nobody tells you that the job changes completely the moment you start leading. For years, your value comes from solving the hardest problem yourself. Then, almost overnight, it comes from enabling the people who solve the problems — and later, from enabling the people who enable the people who solve the problems. That's a shift that breaks a lot of strong engineers, because being good at the work never prepared them for it.\r\n\r\nI spent 10 years as an individual contributor — writing code, architecting data and security platforms, consulting into complex regulated environments — before I led anyone. In the five years since, I've made two more transitions most people don't talk about: from leading a team, to leading a team of leaders who each lead their own teams. Each step required unlearning what made me successful at the step before.\r\n\r\nIn this talk I'll walk through the concrete mindset shifts at each rung: from \"solve it yourself\" to \"make sure it gets solved,\" and from \"grow a team\" to \"grow the leaders who grow teams\" — where your job is multiplying judgment, not authoring it. I'll share what actually worked: building psychological safety paired with meritocratic recognition (not just being \"nice\"), using flow thinking (Little's Law, Lean, Kaizen) to design out toil instead of adding process, and deliberately balancing exploiting what already works with exploring what's next — so teams stay excited without core systems breaking.\r\n\r\nThis isn't a talk about titles or promotions. It's for individual contributors wondering if leadership is for them, first-time leads figuring out what actually changed, and leaders who want to grow their own leaders rather than just manage their own team.",
+      "startsAt": "2026-10-03T14:20:00",
+      "endsAt": "2026-10-03T14:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3af193a0-6b8a-4c32-926d-692ae9ecbe1b"
+      ],
+      "categoryItems": [
+        492873,
+        492878,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1313889",
+      "title": "You built an Agent. What next?",
+      "description": "Building an agent is the easy part now. A prompt to your coding assistant, an LLM to write the glue code, and you have something that works on your machine. I WISH \"it works on my machine\" was an acceptable answer for enterprises, but the reality is there's a ladder to climb before you even think about deploying your agent: architecture review boards, security assessments, IAM policies, networking, and the dozen other things nobody's tutorial mentioned. This talk walks through what it actually takes to get your agent into production on GCP. You'll leave knowing the questions your security and platform teams will ask, and how to have answers ready",
+      "startsAt": "2026-10-03T14:20:00",
+      "endsAt": "2026-10-03T14:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "cb0f47ca-b815-4f4e-877d-6c672afadd3b"
+      ],
+      "categoryItems": [
+        492875,
+        492880,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1301360",
+      "title": "Behind The Curtain of Australia's #1 Paid App",
+      "description": "Over many years, WikiCamps has been Australia's #1 paid app on the App Store. Over time, we have leveraged cross-platform technologies to serve our users on Android (and iOS) as part of our mission to bring Australia closer together. In 2026, we use Flutter and other technologies to enable this. We hope that you'll join us in an exploration of the WikiCamps platform and how we serve hundreds of thousands of monthly active users.",
+      "startsAt": "2026-10-03T14:20:00",
+      "endsAt": "2026-10-03T14:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "13573f9c-4cb8-4bb4-8563-4d469fec3ddf"
+      ],
+      "categoryItems": [
+        492868,
+        492878,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1321368",
+      "title": "Build a Tiny Home in the Agentic Era: Flutter, Generative UI and AR",
+      "description": "Most AI app demos stop at a chat box. But what happens when AI can also shape the interface and help guide a user through a task in augmented reality?\r\n\r\nIn this lightning talk, I’ll demo Builder AR, a Flutter app where a user builds a five piece tiny home model in AR.\r\n\r\nThe user can ask a simple question like:\r\n\r\n“What should I build next?”\r\n\r\nGemini suggests the next step. A2UI and Flutter GenUI turn that response into interface elements the user can interact with, such as explanations, choices and confirmation actions.\r\n\r\nFlutter still owns the application rules.\r\n\r\nIf Gemini suggests placing the roof before the walls are ready, the action is rejected. If the AI is unavailable, the user can continue the same build using the local workflow.\r\n\r\nI’ll show how the pieces fit together:\r\n\r\nGemini > A2UI >  Flutter validation >  user confirmation > AR\r\n\r\nYou’ll leave with a practical example of how generative UI can move beyond a chatbot and become part of a real Flutter experience, while keeping the application predictable and the user in control.\r\n\r\nNo previous A2UI or AR experience is required.",
+      "startsAt": "2026-10-03T15:00:00",
+      "endsAt": "2026-10-03T15:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "056f4ccf-14b9-4887-b9af-222578a7e548"
+      ],
+      "categoryItems": [
+        492868,
+        492877,
+        492881
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1291642",
+      "title": "Instrumenting the Cloud: Eliminating Blind Spots with OpenTelemetry",
+      "description": "Troubleshooting distributed, cloud-native systems shouldn't feel like a guessing game. This code-heavy, practical session focuses purely on the mechanics of capturing high-quality telemetry data. We will instrument a microservices architecture to generate custom logs, metrics, and distributed traces using OpenTelemetry. By the end of the session, attendees will understand how to properly instrument their applications and route that telemetry to centralised observability backends to instantly pinpoint bottlenecks and silent failures.",
+      "startsAt": "2026-10-03T15:00:00",
+      "endsAt": "2026-10-03T15:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b68f5688-528b-457e-bec1-01340ad3b68c"
+      ],
+      "categoryItems": [
+        492869,
+        492878,
+        492883
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1295375",
+      "title": "“A Kubestronaut Riding a Dragon”: Scaling Generative AI on GKE",
+      "description": "Generative AI is quickly becoming a production workload, but running models like Stable Diffusion XL on GKE introduces challenges around GPUs, scheduling, and performance.\r\n\r\nIn this session, we present a real-world implementation of an AI image generation platform running on Kubernetes. You’ll learn how to containerize, deploy, and scale inference workloads using open-source tools like Diffusers, PyTorch, and Streamlit.\r\n\r\nWe’ll explore GPU vs CPU performance, model loading behavior (~8GB), and cold start impacts, along with how Kubernetes distributes and scales inference workloads.\r\n\r\nThe talk includes a live demo generating images in real time (including “a kubestronaut riding a dragon in space”) and shares practical insights for running generative AI workloads on Kubernetes in any environment.",
+      "startsAt": "2026-10-03T15:00:00",
+      "endsAt": "2026-10-03T15:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "81643125-9004-429c-8415-24d3040d2b9a"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492881
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "2f4b9e9e-0c05-416d-ae7a-6e252b641e7c",
+      "title": "Afternoon Tea",
+      "description": null,
+      "startsAt": "2026-10-03T15:10:00",
+      "endsAt": "2026-10-03T15:30:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "1320420",
+      "title": "Murder Trial, Motorcycling and Motion Sickness: Lessons in Agency from a Control Freak",
+      "description": "Through three very different personal experiences: serving on a murder jury, riding a motorcycle and living with motion sickness. This talk explores the difference between control, influence, risk mitigation and acceptance.\r\n\r\nEach story examines a different kind of agency: how we influence outcomes when control is shared, how we prepare for risks we cannot eliminate, and how we respond when something simply cannot be changed.\r\n\r\nIt is a story-led conversation about leadership, decision-making and responsibility - recognising what you can control, where you can influence, what you can prepare for, and what you ultimately have to accept when the outcome is not entirely yours to determine.",
+      "startsAt": "2026-10-03T15:30:00",
+      "endsAt": "2026-10-03T16:05:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ace23d3a-ccb0-4579-b3b1-8cbf3cebc765"
+      ],
+      "categoryItems": [
+        492873,
+        492879,
+        492882
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1290872",
+      "title": "Cheap Local AI: Michelin star performance on a Maccas budget",
+      "description": "\r\nIn this talk, you will learn how, with a bit of effort and patience you can build a rig capable of running high performing local LLMs for the cost of an ipad. I will cover my experience in building and setting up a machine like this, what hardware you need, where to get it and how much it all costs. \r\n\r\nOn the software side, I'll show how easy it is to get up and running with llama.cpp, the best config of llama for this kind of hardware and where to go looking for even more optimisations in the future.\r\n\r\nFinally I'll cap it off with how I and you too can make use of the powerful local LLMs you can run on this class of machine for agentic coding and why running local LLMs makes sense even without the cost savings.",
+      "startsAt": "2026-10-03T15:30:00",
+      "endsAt": "2026-10-03T16:05:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0a9d84e4-3cdc-4073-95b5-76a602fc6107"
+      ],
+      "categoryItems": [
+        492875,
+        492877,
+        492882
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1294333",
+      "title": "Kotlin in Google Cloud: Browser, backend, and back again",
+      "description": "Kotlin Multiplatform has been gaining a lot of traction over the last few years. It's now possible to build full-stack web applications that use Kotlin for both the frontend and backend. \r\n\r\nIsaac has been running applications like this on Google Cloud, and this talk covers how that works; Compose/WASM served from Cloud Storage and a Kotlin/JVM backend on Cloud Run. \r\n\r\nIn this session, Isaac will cover:\r\n* How to build a backend, shared logic, and a web frontend with Kotlin Multiplatform and Compose/WASM\r\n* How to deploy this to Google Cloud\r\n* The advantages (and disadvantages) of this approach\r\n",
+      "startsAt": "2026-10-03T15:30:00",
+      "endsAt": "2026-10-03T16:05:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2612419c-32cd-4acb-b15e-9a3d476b8ae9"
+      ],
+      "categoryItems": [
+        492869,
+        492877,
+        492882
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1305549",
+      "title": "AI Governance: Who Signs Off on the Robot?",
+      "description": "Every organisation now has AI inside it, whether or not anyone approved it. In this session I will focus entirely on governance: the policies, controls, and decision points that determine which AI systems get adopted, on what terms, and who is accountable when they fail.\r\n\r\nI will start with policy. I will walk through how an enterprise AI use policy actually gets written, reviewed line by line, and pushed through to approval inside a regulated utility, and how frameworks such as OVIC and OECD translate into something operational rather than aspirational.\r\n\r\nNext, vendor risk. Before any AI tool enters the business, someone has to answer whether it can be trusted with company data. I will cover how a third party AI risk assessment framework works in practice, how findings are grounded strictly in official vendor documentation, and what a completed assessment looks like when it lands in front of a decision maker.\r\n\r\nI will close on the gap which is usually ignored. Organisations maintain application registers for cyber and AI risk, yet teams keep using free websites, browser tools, and low code agents that never make it into any register.\r\n\r\nBy the end, the audience will have a clear picture of what AI governance looks like when it is actually operating at enterprise scale, not just written down.",
+      "startsAt": "2026-10-03T16:10:00",
+      "endsAt": "2026-10-03T16:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "48c40aeb-a0cd-458f-9de7-81175b9e4ed4"
+      ],
+      "categoryItems": [
+        492875,
+        492877,
+        492883
+      ],
+      "roomId": 86972,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1318408",
+      "title": "Curing amnesia in agents, with Gemini Enterprise Sessions and Memory bank",
+      "description": "Building conversational AI can be frustrating because traditional LLMs are stateless by default, meaning each new interaction starts completely blank. If you want your agents to actually remember user preferences or resume a paused chat, you usually have to build a complex database layer yourself.\r\n\r\nIn this session, we will explore how the Gemini Enterprise Agent Platform solves this issue out of the box. We will look at its two-layer memory architecture, starting with the Sessions Service. You will learn how to use it as a fully managed, stateful conversation store to maintain temporary in-session state and track workflow progress without having to provision your own storage layer.\r\nFrom there, we will unpack the Memory Bank Service. I will show you how this tool handles persistent, cross-session memory by automatically extracting user facts and keeping them up to date across multiple interactions.\r\n\r\n",
+      "startsAt": "2026-10-03T16:10:00",
+      "endsAt": "2026-10-03T16:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c8292b6c-094d-4f38-b30b-ba410a27aa10"
+      ],
+      "categoryItems": [
+        492875,
+        492878,
+        492883
+      ],
+      "roomId": 86973,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1313293",
+      "title": "Hello Computer, Introducing the next generation of Human Computer Interfaces.",
+      "description": "Part love letter to Sci-Fi, Part live demo of voice interfaces. This talk will explore the nuances and capabilities of v2v / omni / gemini live models and dive into a bit about what it means to build and work with them.",
+      "startsAt": "2026-10-03T16:10:00",
+      "endsAt": "2026-10-03T16:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d15a1de7-8c1c-4978-ad0e-65897b3091e6"
+      ],
+      "categoryItems": [
+        492875,
+        492877,
+        492883
+      ],
+      "roomId": 89608,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "fbf9be14-24fd-4ee9-8aa8-337d7645cf20",
+      "title": "Close",
+      "description": null,
+      "startsAt": "2026-10-03T16:25:00",
+      "endsAt": "2026-10-03T16:45:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "ec3dd185-3df1-4782-aecf-87de11495ccd",
+      "title": "After event drinks",
+      "description": "The Mint - 318 William St, Melbourne VIC 3000\n\nKeep your wristband on to access the bar tab!",
+      "startsAt": "2026-10-03T16:45:00",
+      "endsAt": "2026-10-03T19:00:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 86972,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    }
+  ],
+  "speakers": [
+    {
+      "id": "d784c94f-4042-4365-b87f-3c93c3d10aef",
+      "fullName": "Aniruddh Fichadia",
+      "sessions": [
+        1321235
+      ]
+    },
+    {
+      "id": "48c40aeb-a0cd-458f-9de7-81175b9e4ed4",
+      "fullName": "Anjaneya Turai",
+      "sessions": [
+        1305549
+      ]
+    },
+    {
+      "id": "b68f5688-528b-457e-bec1-01340ad3b68c",
+      "fullName": "Anupam Phoghat",
+      "sessions": [
+        1291642
+      ]
+    },
+    {
+      "id": "767c94dc-b41f-4e36-80df-b489a5adcb9f",
+      "fullName": "Aung Kyaw Paing (Vincent)",
+      "sessions": [
+        1315118
+      ]
+    },
+    {
+      "id": "d15a1de7-8c1c-4978-ad0e-65897b3091e6",
+      "fullName": "Avrami Hammer",
+      "sessions": [
+        1313293
+      ]
+    },
+    {
+      "id": "4c65dbfb-df7d-40c0-bf28-ca58cc68442d",
+      "fullName": "Bishal Sapkota",
+      "sessions": [
+        1302242
+      ]
+    },
+    {
+      "id": "6ec92a58-821b-449c-a579-8d63c9951e76",
+      "fullName": "David Rawson",
+      "sessions": [
+        1313281
+      ]
+    },
+    {
+      "id": "76280333-5be1-444a-a464-ec7e5a4d777b",
+      "fullName": "Derrick Qin",
+      "sessions": [
+        1321310
+      ]
+    },
+    {
+      "id": "2612419c-32cd-4acb-b15e-9a3d476b8ae9",
+      "fullName": "Isaac Udy",
+      "sessions": [
+        1294333
+      ]
+    },
+    {
+      "id": "4a4960d5-7d5a-4460-bcd0-71c23c7537ff",
+      "fullName": "Ivan Chiou",
+      "sessions": [
+        1310720
+      ]
+    },
+    {
+      "id": "60d8662a-9d16-4150-9e15-d9b403b794f7",
+      "fullName": "Jason Feng",
+      "sessions": [
+        1291720
+      ]
+    },
+    {
+      "id": "fcfb9145-5d11-494d-9ae8-de9e678432c8",
+      "fullName": "Jonathon Reid",
+      "sessions": [
+        1321230
+      ]
+    },
+    {
+      "id": "87c37f50-2beb-4629-9e5d-d58a77be8735",
+      "fullName": "Josie Daw",
+      "sessions": [
+        1305224
+      ]
+    },
+    {
+      "id": "a0591762-1129-4ea2-8c1e-32fc81a13413",
+      "fullName": "Katie McLaughlin",
+      "sessions": [
+        1302092
+      ]
+    },
+    {
+      "id": "23f66861-6309-4023-9dc5-fb59bb50d284",
+      "fullName": "Kirtika Sharma",
+      "sessions": [
+        1301192
+      ]
+    },
+    {
+      "id": "d5bdd3f7-7eed-4308-8171-aa43e4483cbd",
+      "fullName": "Luke Tupper",
+      "sessions": [
+        1320348
+      ]
+    },
+    {
+      "id": "0a9d84e4-3cdc-4073-95b5-76a602fc6107",
+      "fullName": "Maksim Lin",
+      "sessions": [
+        1290872
+      ]
+    },
+    {
+      "id": "13573f9c-4cb8-4bb4-8563-4d469fec3ddf",
+      "fullName": "Mark Videon",
+      "sessions": [
+        1301360
+      ]
+    },
+    {
+      "id": "31b82bda-a955-4718-b49c-e4948640e9d1",
+      "fullName": "Michael Fornaro",
+      "sessions": [
+        1289144
+      ]
+    },
+    {
+      "id": "c8292b6c-094d-4f38-b30b-ba410a27aa10",
+      "fullName": "Michael Khan",
+      "sessions": [
+        1318408
+      ]
+    },
+    {
+      "id": "14188cc6-c6cb-459e-9e06-e16c36759669",
+      "fullName": "Olga Mirensky",
+      "sessions": [
+        1321201
+      ]
+    },
+    {
+      "id": "056f4ccf-14b9-4887-b9af-222578a7e548",
+      "fullName": "Peter Wei",
+      "sessions": [
+        1321368
+      ]
+    },
+    {
+      "id": "3b179d77-02a0-4d36-8cf2-eb969d10f9a6",
+      "fullName": "Phil Nash",
+      "sessions": [
+        1307332
+      ]
+    },
+    {
+      "id": "ab3b35e3-7a06-4edf-b2ed-045905b7b6cc",
+      "fullName": "Russal Arya",
+      "sessions": [
+        1315317
+      ]
+    },
+    {
+      "id": "aa2e0f74-5b1b-4f06-acb7-f84f6545b24c",
+      "fullName": "Sam Currie",
+      "sessions": [
+        1322021
+      ]
+    },
+    {
+      "id": "72f9370c-e8ae-4146-955a-13580be61b01",
+      "fullName": "Sami Alakus",
+      "sessions": [
+        1289144
+      ]
+    },
+    {
+      "id": "ace23d3a-ccb0-4579-b3b1-8cbf3cebc765",
+      "fullName": "Tegan DeClark",
+      "sessions": [
+        1320420
+      ]
+    },
+    {
+      "id": "3af193a0-6b8a-4c32-926d-692ae9ecbe1b",
+      "fullName": "Tiago Bevilacqua",
+      "sessions": [
+        1295754
+      ]
+    },
+    {
+      "id": "bf33144d-d1d6-467e-ae92-6e0912d5962d",
+      "fullName": "Weiyuan Liu",
+      "sessions": [
+        1316550
+      ]
+    },
+    {
+      "id": "cb0f47ca-b815-4f4e-877d-6c672afadd3b",
+      "fullName": "Yash Mehta",
+      "sessions": [
+        1313889
+      ]
+    },
+    {
+      "id": "81643125-9004-429c-8415-24d3040d2b9a",
+      "fullName": "Yongkang He",
+      "sessions": [
+        1295375
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 136078,
+      "title": "Topic Category",
+      "items": [
+        {
+          "id": 492867,
+          "name": "Android",
+          "sort": 1
+        },
+        {
+          "id": 492868,
+          "name": "Flutter",
+          "sort": 2
+        },
+        {
+          "id": 492869,
+          "name": "GCP",
+          "sort": 3
+        },
+        {
+          "id": 492870,
+          "name": "General Software Engineering",
+          "sort": 4
+        },
+        {
+          "id": 492871,
+          "name": "Web",
+          "sort": 5
+        },
+        {
+          "id": 492873,
+          "name": "Non-technical",
+          "sort": 6
+        },
+        {
+          "id": 492875,
+          "name": "AI",
+          "sort": 8
+        }
+      ],
+      "sort": 0,
+      "type": "session"
+    },
+    {
+      "id": 136080,
+      "title": "Target Level",
+      "items": [
+        {
+          "id": 492877,
+          "name": "Beginner",
+          "sort": 1
+        },
+        {
+          "id": 492878,
+          "name": "Intermediate",
+          "sort": 2
+        },
+        {
+          "id": 492880,
+          "name": "Advanced",
+          "sort": 3
+        },
+        {
+          "id": 492879,
+          "name": "Non-technical",
+          "sort": 4
+        }
+      ],
+      "sort": 1,
+      "type": "session"
+    },
+    {
+      "id": 136084,
+      "title": "Talk length ",
+      "items": [
+        {
+          "id": 492881,
+          "name": "10 minutes",
+          "sort": 1
+        },
+        {
+          "id": 492882,
+          "name": "35 minutes",
+          "sort": 2
+        },
+        {
+          "id": 492883,
+          "name": "15 minutes",
+          "sort": 3
+        }
+      ],
+      "sort": 4,
+      "type": "session"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 86972,
+      "name": "The Auditorium (Level 5)",
+      "sort": 0
+    },
+    {
+      "id": 86973,
+      "name": "Lecture Theatre (Level 3)",
+      "sort": 1
+    },
+    {
+      "id": 89608,
+      "name": "Flagstaff (Level 5)",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "router": "laya",
+  "tiers": 3,
+  "results": [
+    {
+      "question": "What time does \"How to Succeed in a Hackathon\" start?",
+      "label": "lookup",
+      "confidence": 0.5056,
+      "router_secs": 0.930663832987193,
+      "attempts": [
+        {
+          "tier": "lite",
+          "usage": {
+            "prompt": 29400,
+            "cached": 29168,
+            "output": 63,
+            "thinking": 0
+          },
+          "latency": 3.661357625009259,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1305224"
+            ],
+            "room": "",
+            "time": "11:40",
+            "answer": "The talk \"How to Succeed in a Hackathon\" starts at 11:40."
+          }
+        }
+      ]
+    },
+    {
+      "question": "I'm new to AI, any beginner talks worth seeing?",
+      "label": "filter",
+      "confidence": 0.4087,
+      "router_secs": 0.3616817500151228,
+      "attempts": [
+        {
+          "tier": "flash",
+          "usage": {
+            "prompt": 29399,
+            "cached": 29168,
+            "output": 108,
+            "thinking": 0
+          },
+          "latency": 4.487071665993426,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1302242",
+              "1305549",
+              "1313293"
+            ],
+            "room": "",
+            "time": "",
+            "answer": "There are three beginner-level AI talks: 'Wonderful world of Open Weights AI', 'AI Governance: Who Signs Off on the Robot?', and 'Hello Computer, Introducing the next generation of Human Computer Interfaces.'."
+          }
+        }
+      ]
+    },
+    {
+      "question": "I'm here till 3pm. Build my day: one talk per slot, GCP first, then AI, and nothing on Android.",
+      "label": "plan",
+      "confidence": 0.7996,
+      "router_secs": 0.9579119170084596,
+      "attempts": [
+        {
+          "tier": "pro",
+          "usage": {
+            "prompt": 29415,
+            "cached": 29168,
+            "output": 132,
+            "thinking": 1576
+          },
+          "latency": 16.99352483297116,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1316550",
+              "1302092",
+              "1310720",
+              "1321310",
+              "1321201",
+              "1322021",
+              "1313889"
+            ],
+            "room": "",
+            "time": "",
+            "answer": "Here is your schedule until 3:00 PM, prioritizing GCP and AI sessions while entirely avoiding Android talks."
+          }
+        }
+      ]
+    }
+  ]
+}

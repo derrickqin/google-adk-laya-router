@@ -1,0 +1,107 @@
+{
+  "router": "laya @ Cloud Run",
+  "tiers": 3,
+  "results": [
+    {
+      "question": "What time does \"How to Succeed in a Hackathon\" start?",
+      "label": "lookup",
+      "confidence": 0.5056,
+      "router_secs": 0.9325740839999952,
+      "attempts": [
+        {
+          "tier": "lite",
+          "usage": {
+            "prompt": 29400,
+            "cached": 29168,
+            "output": 76,
+            "thinking": 0
+          },
+          "latency": 2.1977477700000065,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1305224"
+            ],
+            "room": "",
+            "time": "11:40",
+            "answer": "The talk \"How to Succeed in a Hackathon\" starts at 11:40 on Level 5 in Flagstaff."
+          }
+        }
+      ],
+      "router": "laya",
+      "cost": 0.0011616846484359998,
+      "server_s": 4.290644239999992
+    },
+    {
+      "question": "I'm new to AI, any beginner talks worth seeing?",
+      "label": "filter",
+      "confidence": 0.4087,
+      "router_secs": 1.0557100120000058,
+      "attempts": [
+        {
+          "tier": "flash",
+          "usage": {
+            "prompt": 29399,
+            "cached": 29168,
+            "output": 108,
+            "thinking": 0
+          },
+          "latency": 2.9210137279999913,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1302242",
+              "1305549",
+              "1313293"
+            ],
+            "room": "",
+            "time": "",
+            "answer": "There are three beginner-level AI talks scheduled: 'Wonderful world of Open Weights AI', 'AI Governance: Who Signs Off on the Robot?', and 'Hello Computer, Introducing the next generation of Human Computer Interfaces.'"
+          }
+        }
+      ],
+      "router": "laya",
+      "cost": 0.002796465590348,
+      "server_s": 3.9848301910000004
+    },
+    {
+      "question": "I'm here till 3pm. Build my day: one talk per slot, GCP first, then AI, and nothing on Android.",
+      "label": "plan",
+      "confidence": 0.7996,
+      "router_secs": 1.2193419360000064,
+      "attempts": [
+        {
+          "tier": "pro",
+          "usage": {
+            "prompt": 29415,
+            "cached": 29168,
+            "output": 137,
+            "thinking": 2220
+          },
+          "latency": 19.613491264000004,
+          "valid": true,
+          "why": "",
+          "answer": {
+            "session_ids": [
+              "1316550",
+              "1302092",
+              "1310720",
+              "1321310",
+              "1321201",
+              "1322021",
+              "1313889"
+            ],
+            "room": "",
+            "time": "",
+            "answer": "Here is your tailored schedule focusing on GCP and AI talks, completely avoiding Android sessions, and finishing right before 3:00 PM."
+          }
+        }
+      ],
+      "router": "laya",
+      "cost": 0.034646960916144,
+      "server_s": 20.840877903999996
+    }
+  ]
+}

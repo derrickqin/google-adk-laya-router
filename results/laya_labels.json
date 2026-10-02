@@ -1,0 +1,965 @@
+{
+  "questions": {
+    "day_plan": {
+      "type": "noul",
+      "instructions": "Is the attendee asking to organise their whole day, with rules such as arrival or leaving times, topic preferences or talks to avoid?"
+    },
+    "task": {
+      "type": "choice",
+      "instructions": "What kind of help is the conference attendee asking for?",
+      "criteria": {
+        "quick_fact": "short question with a single answer: a room, a time, a speaker, or what is on right now",
+        "search": "find every talk matching a filter like topic, level, room, before or after lunch",
+        "itinerary": "long request to organise my whole day: one talk per slot, preferences in order, things to avoid, must-see talks"
+      }
+    }
+  },
+  "plan_threshold": 0.3,
+  "labels": {
+    "l001": {
+      "label": "filter",
+      "confidence": 0.4235,
+      "seconds": 0.08635641701403074,
+      "p_day_plan": 0.1972,
+      "task": "search"
+    },
+    "l002": {
+      "label": "filter",
+      "confidence": 0.4138,
+      "seconds": 0.07536324998363853,
+      "p_day_plan": 0.0953,
+      "task": "search"
+    },
+    "l003": {
+      "label": "filter",
+      "confidence": 0.5097,
+      "seconds": 0.43403354100883007,
+      "p_day_plan": 0.0548,
+      "task": "search"
+    },
+    "l004": {
+      "label": "filter",
+      "confidence": 0.4457,
+      "seconds": 0.1886524999863468,
+      "p_day_plan": 0.0647,
+      "task": "search"
+    },
+    "l005": {
+      "label": "filter",
+      "confidence": 0.5094,
+      "seconds": 0.24752870801603422,
+      "p_day_plan": 0.1196,
+      "task": "search"
+    },
+    "l006": {
+      "label": "filter",
+      "confidence": 0.4833,
+      "seconds": 0.08020875000511296,
+      "p_day_plan": 0.0952,
+      "task": "search"
+    },
+    "l007": {
+      "label": "filter",
+      "confidence": 0.5191,
+      "seconds": 0.0787306249840185,
+      "p_day_plan": 0.069,
+      "task": "search"
+    },
+    "l008": {
+      "label": "lookup",
+      "confidence": 0.4106,
+      "seconds": 0.07475995799177326,
+      "p_day_plan": 0.0836,
+      "task": "quick_fact"
+    },
+    "l009": {
+      "label": "filter",
+      "confidence": 0.5113,
+      "seconds": 0.08133979100966826,
+      "p_day_plan": 0.0791,
+      "task": "search"
+    },
+    "l010": {
+      "label": "filter",
+      "confidence": 0.4598,
+      "seconds": 0.0791561669902876,
+      "p_day_plan": 0.0682,
+      "task": "search"
+    },
+    "l011": {
+      "label": "filter",
+      "confidence": 0.4729,
+      "seconds": 0.06919333300902508,
+      "p_day_plan": 0.094,
+      "task": "search"
+    },
+    "l012": {
+      "label": "filter",
+      "confidence": 0.49,
+      "seconds": 0.06838016700930893,
+      "p_day_plan": 0.0831,
+      "task": "search"
+    },
+    "l013": {
+      "label": "lookup",
+      "confidence": 0.4812,
+      "seconds": 0.06586637502186932,
+      "p_day_plan": 0.0919,
+      "task": "quick_fact"
+    },
+    "l014": {
+      "label": "lookup",
+      "confidence": 0.5294,
+      "seconds": 0.07662745800917037,
+      "p_day_plan": 0.0504,
+      "task": "quick_fact"
+    },
+    "l015": {
+      "label": "lookup",
+      "confidence": 0.483,
+      "seconds": 0.06698041598428972,
+      "p_day_plan": 0.0128,
+      "task": "quick_fact"
+    },
+    "l016": {
+      "label": "lookup",
+      "confidence": 0.4788,
+      "seconds": 0.07904979199520312,
+      "p_day_plan": 0.034,
+      "task": "quick_fact"
+    },
+    "l017": {
+      "label": "lookup",
+      "confidence": 0.5577,
+      "seconds": 0.06842833300470375,
+      "p_day_plan": 0.0076,
+      "task": "quick_fact"
+    },
+    "l018": {
+      "label": "lookup",
+      "confidence": 0.5695,
+      "seconds": 0.08159529199474491,
+      "p_day_plan": 0.1031,
+      "task": "quick_fact"
+    },
+    "l019": {
+      "label": "lookup",
+      "confidence": 0.5531,
+      "seconds": 0.0693641249963548,
+      "p_day_plan": 0.0971,
+      "task": "quick_fact"
+    },
+    "l020": {
+      "label": "lookup",
+      "confidence": 0.4993,
+      "seconds": 0.0681824590137694,
+      "p_day_plan": 0.1133,
+      "task": "quick_fact"
+    },
+    "l021": {
+      "label": "lookup",
+      "confidence": 0.4834,
+      "seconds": 0.06791870802408084,
+      "p_day_plan": 0.1431,
+      "task": "quick_fact"
+    },
+    "l022": {
+      "label": "lookup",
+      "confidence": 0.5606,
+      "seconds": 0.07279133299016394,
+      "p_day_plan": 0.0804,
+      "task": "quick_fact"
+    },
+    "l023": {
+      "label": "filter",
+      "confidence": 0.4556,
+      "seconds": 0.0727480000059586,
+      "p_day_plan": 0.0816,
+      "task": "itinerary"
+    },
+    "l024": {
+      "label": "filter",
+      "confidence": 0.3933,
+      "seconds": 0.06284670898457989,
+      "p_day_plan": 0.0538,
+      "task": "itinerary"
+    },
+    "l025": {
+      "label": "filter",
+      "confidence": 0.4572,
+      "seconds": 0.0632820840110071,
+      "p_day_plan": 0.0925,
+      "task": "itinerary"
+    },
+    "l026": {
+      "label": "filter",
+      "confidence": 0.4144,
+      "seconds": 0.07215129199903458,
+      "p_day_plan": 0.0382,
+      "task": "itinerary"
+    },
+    "l027": {
+      "label": "lookup",
+      "confidence": 0.3661,
+      "seconds": 0.0627147080085706,
+      "p_day_plan": 0.06,
+      "task": "quick_fact"
+    },
+    "l028": {
+      "label": "filter",
+      "confidence": 0.3877,
+      "seconds": 0.06160291700507514,
+      "p_day_plan": 0.0687,
+      "task": "itinerary"
+    },
+    "l029": {
+      "label": "filter",
+      "confidence": 0.3611,
+      "seconds": 0.06990312499692664,
+      "p_day_plan": 0.0762,
+      "task": "itinerary"
+    },
+    "l030": {
+      "label": "filter",
+      "confidence": 0.3818,
+      "seconds": 0.07433924998622388,
+      "p_day_plan": 0.053,
+      "task": "itinerary"
+    },
+    "l031": {
+      "label": "filter",
+      "confidence": 0.428,
+      "seconds": 0.06362083301064558,
+      "p_day_plan": 0.0877,
+      "task": "itinerary"
+    },
+    "l032": {
+      "label": "filter",
+      "confidence": 0.3721,
+      "seconds": 0.06166887498693541,
+      "p_day_plan": 0.0778,
+      "task": "itinerary"
+    },
+    "l033": {
+      "label": "filter",
+      "confidence": 0.3855,
+      "seconds": 0.06405145899043418,
+      "p_day_plan": 0.0912,
+      "task": "itinerary"
+    },
+    "l034": {
+      "label": "filter",
+      "confidence": 0.468,
+      "seconds": 0.06336608401034027,
+      "p_day_plan": 0.0119,
+      "task": "search"
+    },
+    "l035": {
+      "label": "lookup",
+      "confidence": 0.4138,
+      "seconds": 0.06446787502500229,
+      "p_day_plan": 0.0476,
+      "task": "quick_fact"
+    },
+    "l036": {
+      "label": "filter",
+      "confidence": 0.493,
+      "seconds": 0.06250312499469146,
+      "p_day_plan": 0.0257,
+      "task": "search"
+    },
+    "l037": {
+      "label": "lookup",
+      "confidence": 0.4227,
+      "seconds": 0.06239279100554995,
+      "p_day_plan": 0.0796,
+      "task": "quick_fact"
+    },
+    "l038": {
+      "label": "filter",
+      "confidence": 0.4741,
+      "seconds": 0.06250262499088421,
+      "p_day_plan": 0.049,
+      "task": "search"
+    },
+    "l039": {
+      "label": "filter",
+      "confidence": 0.3814,
+      "seconds": 0.06189429201185703,
+      "p_day_plan": 0.0776,
+      "task": "itinerary"
+    },
+    "l040": {
+      "label": "filter",
+      "confidence": 0.4223,
+      "seconds": 0.06307129201013595,
+      "p_day_plan": 0.0276,
+      "task": "search"
+    },
+    "f041": {
+      "label": "filter",
+      "confidence": 0.7965,
+      "seconds": 0.07517024999833666,
+      "p_day_plan": 0.081,
+      "task": "search"
+    },
+    "f042": {
+      "label": "filter",
+      "confidence": 0.4607,
+      "seconds": 0.061376041994662955,
+      "p_day_plan": 0.2622,
+      "task": "search"
+    },
+    "f043": {
+      "label": "filter",
+      "confidence": 0.5568,
+      "seconds": 0.06060570798581466,
+      "p_day_plan": 0.1221,
+      "task": "search"
+    },
+    "f044": {
+      "label": "filter",
+      "confidence": 0.6113,
+      "seconds": 0.06318354202085175,
+      "p_day_plan": 0.1763,
+      "task": "search"
+    },
+    "f045": {
+      "label": "filter",
+      "confidence": 0.6087,
+      "seconds": 0.06312625002465211,
+      "p_day_plan": 0.1561,
+      "task": "search"
+    },
+    "f046": {
+      "label": "filter",
+      "confidence": 0.4019,
+      "seconds": 0.07156983300228603,
+      "p_day_plan": 0.1295,
+      "task": "itinerary"
+    },
+    "f047": {
+      "label": "filter",
+      "confidence": 0.6697,
+      "seconds": 0.06269541700021364,
+      "p_day_plan": 0.1605,
+      "task": "search"
+    },
+    "f048": {
+      "label": "filter",
+      "confidence": 0.6413,
+      "seconds": 0.0628957909939345,
+      "p_day_plan": 0.21,
+      "task": "search"
+    },
+    "f049": {
+      "label": "filter",
+      "confidence": 0.3794,
+      "seconds": 0.07028183300280944,
+      "p_day_plan": 0.1806,
+      "task": "itinerary"
+    },
+    "f050": {
+      "label": "filter",
+      "confidence": 0.6675,
+      "seconds": 0.07279341699904762,
+      "p_day_plan": 0.2602,
+      "task": "search"
+    },
+    "f051": {
+      "label": "filter",
+      "confidence": 0.5702,
+      "seconds": 0.061648958013392985,
+      "p_day_plan": 0.1488,
+      "task": "search"
+    },
+    "f052": {
+      "label": "filter",
+      "confidence": 0.6928,
+      "seconds": 0.06267441698582843,
+      "p_day_plan": 0.2003,
+      "task": "search"
+    },
+    "f053": {
+      "label": "filter",
+      "confidence": 0.5868,
+      "seconds": 0.062757874984527,
+      "p_day_plan": 0.2156,
+      "task": "search"
+    },
+    "f054": {
+      "label": "filter",
+      "confidence": 0.4232,
+      "seconds": 0.060578249976970255,
+      "p_day_plan": 0.1874,
+      "task": "itinerary"
+    },
+    "f055": {
+      "label": "filter",
+      "confidence": 0.5851,
+      "seconds": 0.06277537500136532,
+      "p_day_plan": 0.2053,
+      "task": "search"
+    },
+    "f056": {
+      "label": "filter",
+      "confidence": 0.7768,
+      "seconds": 0.06324929097900167,
+      "p_day_plan": 0.0888,
+      "task": "search"
+    },
+    "f057": {
+      "label": "filter",
+      "confidence": 0.4071,
+      "seconds": 0.05993333400692791,
+      "p_day_plan": 0.2936,
+      "task": "itinerary"
+    },
+    "f058": {
+      "label": "filter",
+      "confidence": 0.6519,
+      "seconds": 0.06072733300970867,
+      "p_day_plan": 0.1338,
+      "task": "search"
+    },
+    "f059": {
+      "label": "filter",
+      "confidence": 0.6003,
+      "seconds": 0.061885041010100394,
+      "p_day_plan": 0.1521,
+      "task": "search"
+    },
+    "f060": {
+      "label": "filter",
+      "confidence": 0.6823,
+      "seconds": 0.06176112501998432,
+      "p_day_plan": 0.2763,
+      "task": "search"
+    },
+    "f061": {
+      "label": "filter",
+      "confidence": 0.5252,
+      "seconds": 0.06449495800188743,
+      "p_day_plan": 0.1743,
+      "task": "search"
+    },
+    "f062": {
+      "label": "filter",
+      "confidence": 0.6822,
+      "seconds": 0.07220266698277555,
+      "p_day_plan": 0.1839,
+      "task": "search"
+    },
+    "f063": {
+      "label": "filter",
+      "confidence": 0.738,
+      "seconds": 0.06392770900856704,
+      "p_day_plan": 0.1785,
+      "task": "search"
+    },
+    "f064": {
+      "label": "filter",
+      "confidence": 0.7991,
+      "seconds": 0.06289625001954846,
+      "p_day_plan": 0.1594,
+      "task": "search"
+    },
+    "f065": {
+      "label": "filter",
+      "confidence": 0.5979,
+      "seconds": 0.06259874999523163,
+      "p_day_plan": 0.1878,
+      "task": "search"
+    },
+    "f066": {
+      "label": "filter",
+      "confidence": 0.6665,
+      "seconds": 0.0626619589747861,
+      "p_day_plan": 0.1732,
+      "task": "search"
+    },
+    "f067": {
+      "label": "filter",
+      "confidence": 0.6348,
+      "seconds": 0.06353158300044015,
+      "p_day_plan": 0.1696,
+      "task": "search"
+    },
+    "f068": {
+      "label": "filter",
+      "confidence": 0.7719,
+      "seconds": 0.06237766600679606,
+      "p_day_plan": 0.0962,
+      "task": "search"
+    },
+    "f069": {
+      "label": "filter",
+      "confidence": 0.6843,
+      "seconds": 0.06142066701431759,
+      "p_day_plan": 0.1584,
+      "task": "search"
+    },
+    "f070": {
+      "label": "filter",
+      "confidence": 0.7818,
+      "seconds": 0.0628888749924954,
+      "p_day_plan": 0.0856,
+      "task": "search"
+    },
+    "f071": {
+      "label": "filter",
+      "confidence": 0.6736,
+      "seconds": 0.06306433302233927,
+      "p_day_plan": 0.1909,
+      "task": "search"
+    },
+    "f072": {
+      "label": "filter",
+      "confidence": 0.6655,
+      "seconds": 0.06149020799784921,
+      "p_day_plan": 0.1774,
+      "task": "search"
+    },
+    "f073": {
+      "label": "filter",
+      "confidence": 0.6125,
+      "seconds": 0.06255079200491309,
+      "p_day_plan": 0.1758,
+      "task": "search"
+    },
+    "f074": {
+      "label": "filter",
+      "confidence": 0.7816,
+      "seconds": 0.06334862500079907,
+      "p_day_plan": 0.2027,
+      "task": "search"
+    },
+    "f075": {
+      "label": "filter",
+      "confidence": 0.568,
+      "seconds": 0.06288375001167879,
+      "p_day_plan": 0.2012,
+      "task": "search"
+    },
+    "p076": {
+      "label": "plan",
+      "confidence": 0.8593,
+      "seconds": 0.188716958014993,
+      "p_day_plan": 0.8593,
+      "task": "itinerary"
+    },
+    "p077": {
+      "label": "plan",
+      "confidence": 0.909,
+      "seconds": 0.1751177920086775,
+      "p_day_plan": 0.909,
+      "task": "itinerary"
+    },
+    "p078": {
+      "label": "plan",
+      "confidence": 0.8995,
+      "seconds": 0.10061012499500066,
+      "p_day_plan": 0.8995,
+      "task": "itinerary"
+    },
+    "p079": {
+      "label": "plan",
+      "confidence": 0.8874,
+      "seconds": 0.14356945900362916,
+      "p_day_plan": 0.8874,
+      "task": "itinerary"
+    },
+    "p080": {
+      "label": "plan",
+      "confidence": 0.8914,
+      "seconds": 0.10399641600088216,
+      "p_day_plan": 0.8914,
+      "task": "itinerary"
+    },
+    "p081": {
+      "label": "plan",
+      "confidence": 0.8949,
+      "seconds": 0.1648155409784522,
+      "p_day_plan": 0.8949,
+      "task": "itinerary"
+    },
+    "p082": {
+      "label": "plan",
+      "confidence": 0.8348,
+      "seconds": 0.1082383330212906,
+      "p_day_plan": 0.8348,
+      "task": "itinerary"
+    },
+    "p083": {
+      "label": "plan",
+      "confidence": 0.8695,
+      "seconds": 0.08843870900454931,
+      "p_day_plan": 0.8695,
+      "task": "itinerary"
+    },
+    "p084": {
+      "label": "plan",
+      "confidence": 0.8551,
+      "seconds": 0.10506662499392405,
+      "p_day_plan": 0.8551,
+      "task": "itinerary"
+    },
+    "p085": {
+      "label": "plan",
+      "confidence": 0.877,
+      "seconds": 0.10288262501126155,
+      "p_day_plan": 0.877,
+      "task": "itinerary"
+    },
+    "p086": {
+      "label": "plan",
+      "confidence": 0.8855,
+      "seconds": 0.14353954201214947,
+      "p_day_plan": 0.8855,
+      "task": "itinerary"
+    },
+    "p087": {
+      "label": "plan",
+      "confidence": 0.8543,
+      "seconds": 0.1309802080213558,
+      "p_day_plan": 0.8543,
+      "task": "itinerary"
+    },
+    "p088": {
+      "label": "plan",
+      "confidence": 0.7968,
+      "seconds": 0.10424554199562408,
+      "p_day_plan": 0.7968,
+      "task": "itinerary"
+    },
+    "p089": {
+      "label": "plan",
+      "confidence": 0.8905,
+      "seconds": 0.10494900000048801,
+      "p_day_plan": 0.8905,
+      "task": "itinerary"
+    },
+    "p090": {
+      "label": "plan",
+      "confidence": 0.8229,
+      "seconds": 0.08865295798750594,
+      "p_day_plan": 0.8229,
+      "task": "itinerary"
+    },
+    "p091": {
+      "label": "plan",
+      "confidence": 0.8471,
+      "seconds": 0.13769858301384374,
+      "p_day_plan": 0.8471,
+      "task": "itinerary"
+    },
+    "p092": {
+      "label": "plan",
+      "confidence": 0.8694,
+      "seconds": 0.10190583299845457,
+      "p_day_plan": 0.8694,
+      "task": "itinerary"
+    },
+    "p093": {
+      "label": "plan",
+      "confidence": 0.8755,
+      "seconds": 0.10339862498221919,
+      "p_day_plan": 0.8755,
+      "task": "itinerary"
+    },
+    "p094": {
+      "label": "plan",
+      "confidence": 0.8418,
+      "seconds": 0.07794887499767356,
+      "p_day_plan": 0.8418,
+      "task": "itinerary"
+    },
+    "p095": {
+      "label": "plan",
+      "confidence": 0.8411,
+      "seconds": 0.08711266700993292,
+      "p_day_plan": 0.8411,
+      "task": "itinerary"
+    },
+    "p096": {
+      "label": "plan",
+      "confidence": 0.8276,
+      "seconds": 0.08795658298186027,
+      "p_day_plan": 0.8276,
+      "task": "itinerary"
+    },
+    "p097": {
+      "label": "plan",
+      "confidence": 0.8904,
+      "seconds": 0.09209658298641443,
+      "p_day_plan": 0.8904,
+      "task": "itinerary"
+    },
+    "p098": {
+      "label": "plan",
+      "confidence": 0.8292,
+      "seconds": 0.09571299998788163,
+      "p_day_plan": 0.8292,
+      "task": "itinerary"
+    },
+    "p099": {
+      "label": "plan",
+      "confidence": 0.9321,
+      "seconds": 0.1023523329931777,
+      "p_day_plan": 0.9321,
+      "task": "itinerary"
+    },
+    "p100": {
+      "label": "plan",
+      "confidence": 0.8448,
+      "seconds": 0.08166070800507441,
+      "p_day_plan": 0.8448,
+      "task": "itinerary"
+    },
+    "s01": {
+      "label": "filter",
+      "confidence": 0.3968,
+      "seconds": 0.07109979202505201,
+      "p_day_plan": 0.1098,
+      "task": "itinerary"
+    },
+    "s02": {
+      "label": "filter",
+      "confidence": 0.4617,
+      "seconds": 0.06281104101799428,
+      "p_day_plan": 0.0932,
+      "task": "itinerary"
+    },
+    "s03": {
+      "label": "filter",
+      "confidence": 0.3603,
+      "seconds": 0.06263541700900532,
+      "p_day_plan": 0.1474,
+      "task": "itinerary"
+    },
+    "s04": {
+      "label": "filter",
+      "confidence": 0.4059,
+      "seconds": 0.06302441700245254,
+      "p_day_plan": 0.0903,
+      "task": "itinerary"
+    },
+    "s05": {
+      "label": "filter",
+      "confidence": 0.4038,
+      "seconds": 0.0626066249969881,
+      "p_day_plan": 0.2337,
+      "task": "itinerary"
+    },
+    "nl021": {
+      "label": "lookup",
+      "confidence": 0.4089,
+      "seconds": 0.07057400001212955,
+      "p_day_plan": 0.1146,
+      "task": "quick_fact"
+    },
+    "nl010": {
+      "label": "lookup",
+      "confidence": 0.3389,
+      "seconds": 0.06874629098456353,
+      "p_day_plan": 0.1232,
+      "task": "quick_fact"
+    },
+    "nl026": {
+      "label": "lookup",
+      "confidence": 0.3871,
+      "seconds": 0.07000387500738725,
+      "p_day_plan": 0.0774,
+      "task": "quick_fact"
+    },
+    "nl004": {
+      "label": "filter",
+      "confidence": 0.6156,
+      "seconds": 0.06814300001133233,
+      "p_day_plan": 0.1521,
+      "task": "itinerary"
+    },
+    "nl005": {
+      "label": "filter",
+      "confidence": 0.7231,
+      "seconds": 0.06754962500417605,
+      "p_day_plan": 0.0908,
+      "task": "itinerary"
+    },
+    "nl035": {
+      "label": "plan",
+      "confidence": 0.5175,
+      "seconds": 0.07976912500453182,
+      "p_day_plan": 0.5175,
+      "task": "itinerary"
+    },
+    "nl007": {
+      "label": "filter",
+      "confidence": 0.4187,
+      "seconds": 0.07005408400436863,
+      "p_day_plan": 0.1155,
+      "task": "search"
+    },
+    "nl024": {
+      "label": "filter",
+      "confidence": 0.4954,
+      "seconds": 0.06887424999149516,
+      "p_day_plan": 0.0618,
+      "task": "search"
+    },
+    "nl037": {
+      "label": "filter",
+      "confidence": 0.4424,
+      "seconds": 0.06803404097445309,
+      "p_day_plan": 0.2066,
+      "task": "search"
+    },
+    "nl030": {
+      "label": "lookup",
+      "confidence": 0.522,
+      "seconds": 0.06464479098212905,
+      "p_day_plan": 0.0139,
+      "task": "quick_fact"
+    },
+    "nf073": {
+      "label": "filter",
+      "confidence": 0.4475,
+      "seconds": 0.06440604201634414,
+      "p_day_plan": 0.1487,
+      "task": "search"
+    },
+    "nf054": {
+      "label": "filter",
+      "confidence": 0.5448,
+      "seconds": 0.06401549998554401,
+      "p_day_plan": 0.1006,
+      "task": "search"
+    },
+    "nf043": {
+      "label": "filter",
+      "confidence": 0.4046,
+      "seconds": 0.06396050000330433,
+      "p_day_plan": 0.1559,
+      "task": "search"
+    },
+    "nf046": {
+      "label": "filter",
+      "confidence": 0.524,
+      "seconds": 0.06304958401597105,
+      "p_day_plan": 0.2316,
+      "task": "search"
+    },
+    "nf074": {
+      "label": "filter",
+      "confidence": 0.4145,
+      "seconds": 0.06426283300970681,
+      "p_day_plan": 0.1455,
+      "task": "itinerary"
+    },
+    "nf071": {
+      "label": "filter",
+      "confidence": 0.5178,
+      "seconds": 0.06366183297359385,
+      "p_day_plan": 0.2361,
+      "task": "itinerary"
+    },
+    "nf075": {
+      "label": "filter",
+      "confidence": 0.4834,
+      "seconds": 0.06438466702820733,
+      "p_day_plan": 0.2154,
+      "task": "search"
+    },
+    "nf048": {
+      "label": "filter",
+      "confidence": 0.5973,
+      "seconds": 0.06264966700109653,
+      "p_day_plan": 0.2147,
+      "task": "search"
+    },
+    "nf069": {
+      "label": "filter",
+      "confidence": 0.4294,
+      "seconds": 0.06411220799782313,
+      "p_day_plan": 0.1293,
+      "task": "search"
+    },
+    "nf058": {
+      "label": "filter",
+      "confidence": 0.613,
+      "seconds": 0.06397541699698195,
+      "p_day_plan": 0.1699,
+      "task": "search"
+    },
+    "np089": {
+      "label": "plan",
+      "confidence": 0.8564,
+      "seconds": 0.08143337498768233,
+      "p_day_plan": 0.8564,
+      "task": "itinerary"
+    },
+    "np077": {
+      "label": "plan",
+      "confidence": 0.8303,
+      "seconds": 0.0925180000194814,
+      "p_day_plan": 0.8303,
+      "task": "itinerary"
+    },
+    "np094": {
+      "label": "plan",
+      "confidence": 0.4986,
+      "seconds": 0.08016433398006484,
+      "p_day_plan": 0.4986,
+      "task": "itinerary"
+    },
+    "np079": {
+      "label": "plan",
+      "confidence": 0.8571,
+      "seconds": 0.09104349999688566,
+      "p_day_plan": 0.8571,
+      "task": "itinerary"
+    },
+    "np083": {
+      "label": "plan",
+      "confidence": 0.8855,
+      "seconds": 0.0792677910067141,
+      "p_day_plan": 0.8855,
+      "task": "itinerary"
+    },
+    "np098": {
+      "label": "plan",
+      "confidence": 0.6616,
+      "seconds": 0.17944237499614246,
+      "p_day_plan": 0.6616,
+      "task": "itinerary"
+    },
+    "np099": {
+      "label": "plan",
+      "confidence": 0.6302,
+      "seconds": 0.08981104198028333,
+      "p_day_plan": 0.6302,
+      "task": "itinerary"
+    },
+    "np088": {
+      "label": "plan",
+      "confidence": 0.5063,
+      "seconds": 0.08994454200728796,
+      "p_day_plan": 0.5063,
+      "task": "itinerary"
+    },
+    "np095": {
+      "label": "plan",
+      "confidence": 0.7488,
+      "seconds": 0.07894274999853224,
+      "p_day_plan": 0.7488,
+      "task": "itinerary"
+    },
+    "np096": {
+      "label": "plan",
+      "confidence": 0.8144,
+      "seconds": 0.07692225000937469,
+      "p_day_plan": 0.8144,
+      "task": "itinerary"
+    }
+  }
+}

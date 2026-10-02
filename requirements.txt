@@ -1,0 +1,7 @@
+# Service dependencies (torch is installed separately, CPU-only, in the Dockerfile)
+laya>=0.3.22
+google-adk>=2.10
+google-genai>=2.25
+fastapi>=0.110
+uvicorn>=0.27
+rich>=13
